@@ -142,3 +142,50 @@ body {
   .button:hover {
     background: rgba(166, 197, 23, 1)
   }
+  @media screen and (max-width: 500px) {
+
+    html,
+    body {
+        min-width: 100vw;
+        }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 310px;
+        padding: 40px 0px 0px 0px;
+        }
+    .sub-topcontainer {
+        background-color: white;
+        border-radius: 8px 8px 0px 0px;
+        height: 250px;
+        width: 310px;
+        }
+    .sub-bottomcontainer {
+        display: flex;
+        flex-direction: column;
+        }
+    .left-content {
+        height: 266px;
+        width: 310px;
+        border-radius: 0;
+        }
+    .right-content {
+        height: 266px;
+        width: 310px;
+        }
+    .button {
+        width: 250px;
+        height: 40px;
+        margin: 0px;
+        }
+    .top-maintext {
+        font-size: 1rem;
+    }
+    .top-subtext {
+        font-size: 0.9rem;
+    }
+    .top-subcontent {
+        row-gap: 20px;
+    }
+  }
